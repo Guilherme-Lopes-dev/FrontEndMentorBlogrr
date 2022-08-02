@@ -1,4 +1,4 @@
-function displayMenu() {
+function displayMenu(pCampo) {
     var mostraProdutos = '';
     mostraProdutos += '     <ol>'
     mostraProdutos += '      <li>Overview</li>'
@@ -8,7 +8,7 @@ function displayMenu() {
     mostraProdutos += '      <li>Integrations</li>'
     mostraProdutos += '     </ol>'
 
-
+    console.log("fui clicado");
     if (pCampo.checked) {
         document.getElementById("mostraProdutos").innerHTML = displayMenu;
     }
