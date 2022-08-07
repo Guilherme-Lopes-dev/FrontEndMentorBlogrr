@@ -1,0 +1,48 @@
+
+
+.presentation .img {
+  overflow: hidden;
+  position: relative;
+}
+
+.presentation .column {
+  width: 50%;
+  height: 900px;
+  justify-content: left;
+  align-items: left;
+}
+
+.presentation .img img {
+  position: absolute;
+  right: -500px;
+  margin-top: 70px;
+  
+}
+.presentation h2{
+    display: flex;
+    width: 100vw;
+    position: absolute;
+    justify-content: center;
+    align-items: center;    
+    font-size: 40px;
+    margin-top: 200px;
+
+}
+
+.presentation .column .text{
+  height: fit-content;
+  width: 40vw;
+  height: 420px;
+  margin: 310px 0 0 175px;
+}
+
+.presentation .column .text h3{
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.presentation .column .text p{
+  font-size: 16px;
+}
+

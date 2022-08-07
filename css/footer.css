@@ -1,0 +1,26 @@
+footer {
+  background-color: hsl(240, 10%, 16%);
+  border-top-right-radius: 100px;
+}
+
+.informations {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.logo-bottom {
+  padding-top: 20px;
+}
+
+/* */
+.colone,
+.coltwo,
+.colthree {
+  padding-top: 20px;
+  display: grid;
+  width: 90px;
+  height: 200px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}

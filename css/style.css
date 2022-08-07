@@ -1,0 +1,195 @@
+@import url(https://fonts.google.com/specimen/Overpass?preview.text_type=custom);
+@import url(https://fonts.google.com/specimen/Ubuntu?preview.text_type=custom);
+body {
+  background-color: grey;
+  font-family: 'Ubuntu', 'Overpass';
+ 
+  
+}
+/*------------------- SECTION SHOWCASE------------------------ */
+
+
+
+.section-showcase{
+  background-color: hsl(355, 100%, 74%);
+  background-image: url('../images/bg-pattern-intro-desktop.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 50vh;
+  border-bottom-left-radius: 100px  ;
+ 
+}
+.section-slogan,
+.section-login,
+.section-menu{
+  border: 1px solid red;
+  padding: 10px;
+ 
+}
+.section-login{display: flex;
+  justify-content: center;      
+  flex-direction: row;
+  align-items: center;}
+.sub-info{
+  display: flex;
+  justify-content: center;      
+  flex-direction: column;
+  align-items: center;
+}
+.info, .redirect{
+  border: 1px solid red;
+  text-align: center;
+}
+
+/* Title */
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*----------------- SECTION A-------------------*/
+
+
+.section-a{
+  display: flex;
+ flex-direction: row-reverse;
+ 
+}
+.image-one{
+  background-image: url(../images/illustration-editor-desktop.svg);
+  border: 5px solid red;
+  width: 50vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  
+}
+
+
+.section-a > h2{
+  border: 1px solid red;
+  text-align: center;
+ 
+}
+
+.section-info-a h3 p{
+  padding-top: 50px;
+  text-align: left;
+
+}
+.section-text-a{
+  border: 1px solid red;
+  display: flex;
+  justify-content: left;      
+  flex-direction: column;
+  align-items: left;
+  width: 500px;
+  margin-top: 25vh;
+   
+}
+
+
+
+/* Section B */
+
+.section-b{
+  display: flex;
+  flex-direction: row;
+  background-color: hsl(237, 17%, 21%);
+  background-image: url(../images/bg-pattern-circles.svg);
+  background-repeat: no-repeat;
+  height: 40vh;
+  background-position: -50%, 300%;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.image-two{
+  background-image: url(../images/illustration-phones.svg);
+  border: 5px solid red;
+  width: 50vw;
+  height: 600px;
+  background-repeat: no-repeat;
+  transform: translate(15%, -20%);
+}
+
+.section-text-b{
+  border: 1px solid red;
+  display: flex;
+  justify-content: left;      
+  flex-direction: column;
+  align-items: left;
+  width: 70vh;
+  margin-top: 30vh;
+  height: 20vh;
+  color: white;
+}
+
+/* Section C */
+
+.section-c{
+  display: flex;
+  flex-direction: row;
+}
+
+.image-three{
+  background-image: url(../images/illustration-laptop-desktop.svg);
+  border: 5px solid red;
+  width: 50vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: -280px;
+}
+.section-text-c{
+  border: 1px solid red;
+  display: flex;
+  justify-content: left;      
+  flex-direction: column;
+  align-items: left;
+  width: 500px;
+  margin-top: 30vh;
+}
+
+/*--- Footer --*/
+.footer{
+
+  background-color:  hsl(240, 10%, 16%);
+    border-top-right-radius: 100px;
+   
+}
+
+
+.informations{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+
+    
+}
+.logo-bottom{
+  padding-top: 20px;
+    border: 1px solid red;
+    
+    
+}
+
+/* */
+.colone, .coltwo, .colthree{
+    padding-top: 20px;
+    display: grid;
+    border: 1px solid red;
+    width: 90px;
+    height: 200px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
