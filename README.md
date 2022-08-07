@@ -1,7 +1,7 @@
 # Frontend Mentor - Blogr landing page
 
 <<<<<<< HEAD
-![Design preview for the Blogr landing page coding challenge](./Preview/FrontEndBlogr.png)
+![Design preview for the Blogr landing page coding challenge](./Preview/Preview.png)
 =======
 
 
