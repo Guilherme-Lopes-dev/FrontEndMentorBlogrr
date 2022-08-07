@@ -1,6 +1,6 @@
 # Frontend Mentor - Blogr landing page
 
-![Design preview for the Blogr landing page coding challenge](./127.0.0.1_5500_index.html.png)
+![Design preview for the Blogr landing page coding challenge](./Preview/FrontEndBlogr.png)
 
 ## Welcome! 👋
 
