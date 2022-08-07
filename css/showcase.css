@@ -95,7 +95,11 @@ span {
   padding: 20px 44px;
   color: #ffffff;
   display: inline-block;
+<<<<<<< HEAD
   font: normal normal 18px/1 "Open Sans", sans-serif;
+=======
+  font: normal normal 26px/1 "Open Sans", sans-serif;
+>>>>>>> 0bc2a31981204024771e828e95643dcff3341c21
   text-align: center;
 }
 
