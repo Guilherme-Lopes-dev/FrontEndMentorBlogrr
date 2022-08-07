@@ -1,5 +1,4 @@
 .features {
-<<<<<<< HEAD
     background:hsl(237, 17%, 21%);
     background-image:url(../assets/bg-pattern-circles.svg);
     height: 400px;
@@ -14,22 +13,6 @@
     align-items: center;
    
   }
-=======
-  background: url("../assets/bg-pattern-circles.svg"), hsl(237, 17%, 21%);
-  height: 400px;
-  width: 100%;
-  background-repeat: no-repeat;
-  border-bottom-left-radius: 100px;
-  border-top-right-radius: 100px;
-  background-origin: padding-box;
-  background-position: -25% 75%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
- 
-}
->>>>>>> 0bc2a31981204024771e828e95643dcff3341c21
-
 
 
 .features .row{
